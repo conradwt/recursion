@@ -22,7 +22,10 @@ defmodule Recursion do
     _sum( tail, head + accumulator )
   end
   
+  #
   # factorial
+  #
+  
   def factorial( number ), do: _factorial( number, 1 )
   
   def _factorial( 0, value ), do: value
