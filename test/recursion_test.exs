@@ -32,7 +32,6 @@ defmodule RecursionTest do
     
     assert 45 == result
   end
-  
 
   test "factorial of 0" do
     subject = 0
@@ -57,5 +56,4 @@ defmodule RecursionTest do
     
     assert 3_628_800 == result
   end
-    
 end
